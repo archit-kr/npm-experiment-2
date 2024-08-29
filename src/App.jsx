@@ -55,7 +55,7 @@ function Example() {
     queryKey: ["repoData"],
     queryFn: () =>
       fetch(
-        "https://api.github.com/repos/storybookjs/storybook/stats/commit_activity",
+        "https://api.github.com/repos/mdn/content/stats/commit_activity",
       ).then((res) => res.json()),
   });
 
